@@ -92,5 +92,79 @@
 
 //Question 15
 
-var Phone = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "&", "Haier"]
-document.write(Phone)
+// var Phone = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "&", "Haier"]
+// document.write(Phone)
+
+
+// ====================================ARRAYS AND LOOP
+
+//Question 1
+
+
+// var a = []
+
+// a[0] = 0
+
+// console.log(a)
+// a[0] = 1
+
+// console.log(a)
+
+//Question 2
+
+// var are = [
+//     [0, 1, 2, 3],
+//     [1, 0, 1, 2],
+//     [2, 1, 0, 1]
+
+// ]
+// for (var a = 0; a < 3; a++) {
+//     for (
+//         var b = 0; b < 4; b++
+//     ) {
+//         document.write(are[a][b] + "")
+
+//     }
+//     document.write("<br><br>")
+// }
+
+
+//Question 3
+
+
+// for (var a = 1; a <= 10; a++) {
+//     document.write(a + "<br>")
+// }
+
+
+//Question 4
+
+
+// var a = +prompt("Enter table number")
+// var b = +prompt("Enter table lenght")
+// for (var c = 1; c <= b; c++) {
+//     document.write(a + " X " + c + " = " + c * a + "<br>")
+// }
+
+
+//Question 5
+
+// var a = ["Apple", "Banana", "Mango", "Orange", "Strawberry"]
+// for (var b = 0; b <= 4; b++) {
+//     document.write("Element at Index " + b + " " + a[b] + "<br><br>")
+// }
+
+//Question 6
+
+// for (var a = 1; a <= 15; a++) {
+//     document.write(a + "," + " " + "")
+// }
+// for (var b = 15; b >= 1; b--) {
+//     document.write(b + "," + " " + "")
+// }
+// for (var a = 2; a <= 20; a = a + 2) {
+//     document.write(a + "," + " " + "")
+// }
+// for (var a = 1; a <= 20; a = a + 2) {
+//     document.write(a + "," + " " + "")
+// }
